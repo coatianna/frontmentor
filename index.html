@@ -1,20 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- то с чего начинается любой html файл-->
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> <!--Тип кодировки --> <!-- тэг мета применяется в заголовке хэд-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> <!-- указывает путь к иконке заголовка и ее тип-->
   <link rel="stylesheet" href="./assets/style.css">
   
-  <title>Frontend Mentor | Order summary card</title>
+  <title>Frontend Mentor | Order summary card</title> <!-- заголовок который будет отображаться в названии вкладки-->
 
+ <style>
+   body{
+     background: #DFE7FF url(images/pattern-background-desktop.svg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+   }
+  
+ </style>
   
 </head>
-<body>
-  <h1 class="title">Hello world</h1>
-  <svg xmlns="http://www.w3.org/2000/svg" width="375" height="194"><path fill="#D6E1FF" fill-rule="evenodd" d="M-131.808 155.366c97.026 51.512 204.233 51.512 321.62 0 117.388-51.512 223.27-51.512 317.648 0V0h-639.268v155.366z"/></svg>
-  
-  
+<body> <!-- Тут все что будет отображаться в браузере-->
+
+ <div><img class="person" src="images/illustration-hero.svg"  width="500" height="250" alt="This"> </div>
+ <div class="container">
+   <img class="person2" src="images/additional.png" width="500" height="550">
+  <div class="centered"> <strong>Order Summary</strong>
+  </div>
+ <div class="centered2"> <p>You can now listen to millions of songs,<br>audiobooks and podcasts on any device<br> anywhere you like!</p>
+  </div>
 </body>
 </html>
+<!--часто используемыми тэгами для преобразования текста являются <h1>заголвок</h1> <p>абзац</p>-->
+<!-- h1...6 идет по убыванию и влияет на размер заголовка-->
+<!-- внутри р тэга можно использовать другие тэги-->
+<!-- <p>...<br> </p> используется для переноса текста
+  -- <p><b>текст жирный</b></p> находящийся внури тэга текст будет выделен жирнее\ <p><em>текст курсивом</em></p> будет выделен курсивом -->
+  <!-- Для добавления ссылки <a href="*ссылка*"> 
+    -- ссылачька 
+    -- </a>"//  если добавить target="_blank" после *ссылка*> ссылка бует открываться в новом окне-->
